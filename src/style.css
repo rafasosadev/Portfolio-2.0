@@ -813,3 +813,74 @@ button:focus {
 .footer-social-icons {
   color: white !important;
 }
+
+.timeline-section {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 50px;
+  color: #fff; /* ajusta según tu tema */
+}
+
+.timeline-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timeline-col {
+  position: relative;
+  padding: 20px;
+}
+
+.timeline-col h3 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #708ef0; /* púrpura */
+  text-align: center;
+}
+
+.timeline-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #708ef0;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.timeline-item h4 {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.timeline-item .purple {
+  color: #708ef0;
+  font-weight: bold;
+}
+
+.timeline-item .date {
+  font-size: 0.9em;
+  color: #ccc;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.timeline-item p {
+  color: #ddd;
+}
+
+.connector {
+  position: absolute;
+  top: 20px;
+  left: -12px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  background-color: #708ef0;
+  border-radius: 50%;
+}

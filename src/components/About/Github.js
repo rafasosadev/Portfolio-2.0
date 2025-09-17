@@ -9,12 +9,19 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
-        blockSize={15}
-        blockMargin={5}
-        color="#c084f5"
-        fontSize={16}
-      />
+  username="rafasosadev"
+  blockSize={15}
+  blockMargin={5}
+  color="#708ef0"
+  fontSize={16}
+  transformData={(data) =>
+    data.filter((day) => {
+      const year = new Date(day.date).getFullYear();
+      return year === new Date().getFullYear(); // solo este año
+    })
+  }
+/>
+
     </Row>
   );
 }
