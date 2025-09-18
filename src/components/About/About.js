@@ -23,28 +23,31 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Sobre <strong className="purple">Mí</strong>
             </h1>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+         <Col
+  md={5}
+  style={{ paddingTop: "120px", paddingBottom: "50px" }}
+  className="about-img"
+>
+  <div className="about-image-box">
+    <img src={laptopImg} alt="about" className="img-fluid" />
+  </div>
+</Col>
+
         </Row>
 
    
         {/* Professional Skillset */}
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <h1 className="project-heading" style={{ marginBottom: "40px" }}>
+          Lenguajes <strong className="purple">Programación </strong>
         </h1>
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+        <h1 className="project-heading" style={{ marginBottom: "40px" }}>
+          <strong className="purple">Herramientas y Frammeworks</strong> Usados
         </h1>
         <Toolstack />
   {/* Experiencia y educación */}

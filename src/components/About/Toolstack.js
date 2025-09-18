@@ -1,31 +1,34 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
+  SiFirebase,
+  SiAndroidstudio,
+  SiJetpackcompose,
+  SiGoogleanalytics,
+  SiGithub,
+  SiVercel
 } from "react-icons/si";
+import { DiGit } from "react-icons/di";
 
 function Toolstack() {
+  const tools = [
+    { icon: <SiAndroidstudio />, name: "Android Studio" },
+    { icon: <SiJetpackcompose />, name: "Jetpack Compose" },
+    { icon: <SiFirebase />, name: "Firebase" },
+    { icon: <SiGoogleanalytics />, name: "Google Analytics" },
+    { icon: <DiGit />, name: "Git" },
+    { icon: <SiGithub />, name: "GitHub" },
+    { icon: <SiVercel />, name: "Vercel" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
+      {tools.map((tool, index) => (
+        <Col xs={4} md={2} className="tech-icons" key={index}>
+          <div className="icon-hover">{tool.icon}</div>
+          <div className="text-hover">{tool.name}</div>
+        </Col>
+      ))}
     </Row>
   );
 }
