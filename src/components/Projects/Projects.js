@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import calculadora from "../../Assets/Projects/calculadora.PNG";
+
+import SosaCars from "../../Assets/Projects/SosaCars.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -21,6 +21,7 @@ function Projects() {
           Aquí algunos de los proyectos en los que he trabajado recientemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -36,8 +37,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Celiacosmy"
+              description="Proyecto final DAM: Aplicación móvil en Kotlin con Firebase y Firestore, enfocada en la gestión y compartición de recetas para personas con celiaquía."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -45,23 +46,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={SosaCars}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="SosaCars"
+              description="Aplicación Web de Alquiler de Coches desarrollada con Next.js, React, Tailwind CSS y Stripe. Permite búsqueda de coches, reservas en línea, panel de administración y pasarela de pago segura."
+              ghLink="https://github.com/rafasosadev/SosaCars"
+              demoLink="https://sosa-cars.vercel.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={calculadora}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Calculadora Interactiva"
+              description="Calculadora interactiva desarrollada en HTML, CSS y JavaScript. Permite realizar operaciones básicas y muestra los valores anteriores y actuales en pantalla. Perfecta para aprender manipulación del DOM y eventos en JS."
+              ghLink="https://github.com/rafasosadev/calculadoraSosa"
+              demoLink="https://calculadora-sosa.vercel.app/"
             />
           </Col>
 

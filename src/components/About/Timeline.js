@@ -14,7 +14,7 @@ function Timeline() {
             <span className="purple">Ilerna FP</span>
             <span className="date">2023 - 2025</span>
             <ul style={{ textAlign: "left", paddingLeft: "20px" }}>
-             <li> Formación en diseño, desarrollo y mantenimiento de aplicaciones para móviles, web y escritorio. Donde  Java, Kotlin, Swift, C#, JavaScript y bases de datos SQL/NoSQL.</li>
+             <li> Formación en Diseño, Desarrollo y Mantenimiento de Aplicaciones multiplataforma (móvil, web y escritorio) utilizando Java, Kotlin, Swift, C#, JavaScript con bases de datos SQL/NoSQL.</li>
             </ul>
             <div className="connector">
               <div className="circle"></div>
