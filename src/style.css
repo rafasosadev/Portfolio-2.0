@@ -490,71 +490,73 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
+/* Tarjeta contenedor */
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
+  flex: 1 1 30% !important;   /* Cada tarjeta ocupa ~30% para 3 por fila */
+  display: flex !important;
+  margin-bottom: 30px !important;
+  min-width: 280px !important; /* Evita que se achique demasiado en móvil */
+  max-width: 450px !important; /* Ancho máximo de la tarjeta */
 }
 
+/* Tarjeta del proyecto */
 .project-card-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: 0 4px 5px 3px #708ef0 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 10px !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px #708ef0 !important;
 }
 
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px #1e2849 !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px #708ef0 !important;
-}
-
+/* Imagen del mismo tamaño */
 .card-img-top {
+  height: 280px !important;  /* Imagen un poco más alta */
+  object-fit: cover !important;
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
   opacity: 0.8 !important;
-  border-radius: 0px !important;
 }
 
+/* Título */
+.project-card-view .card-title {
+  font-size: 1.6em !important;
+  font-weight: 600 !important;
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+  text-align: center !important;
+  color: #708ef0;
+}
+
+/* Descripción */
+.project-card-view .card-text {
+  font-size: 1.1em !important;
+  text-align: justify !important;
+  flex-grow: 1;
+  margin-bottom: 50px !important;
+}
+
+/* Botones al final */
+.project-card-view .btn {
+  width: 48% !important;
+  margin-bottom: 10px !important;
+}
+
+.project-card-view .btn + .btn {
+  margin-left: 4% !important;
+}
+
+/* Botones */
 .btn-primary {
   color: #fff !important;
   background-color: #708ef0 !important;
@@ -566,16 +568,47 @@ button:focus {
   background-color: #193797 !important;
   border-color: #1d2b58 !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
+/* Encabezado */
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+
+/* Grid de proyectos */
+.project-section .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 30px !important;
+  justify-content: center !important;
+}
+
+.project-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.language-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #708ef0;
+  color: white;
+  padding: 6px 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  gap: 5px;
+}
+
 
 /* --------- */
 /* About */

@@ -7,7 +7,7 @@ import calculadora from "../../Assets/Projects/calculadora.PNG";
 import SosaCars from "../../Assets/Projects/SosaCars.png";
 import chatify from "../../Assets/Projects/chatify.png";
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import celiacosmy from "../../Assets/Projects/celiacosmy.png";
 
 function Projects() {
   return (
@@ -35,12 +35,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={celiacosmy}
               isBlog={false}
               title="Celiacosmy"
               description="Proyecto final DAM: Aplicación móvil en Kotlin con Firebase y Firestore, enfocada en la gestión y compartición de recetas para personas con celiaquía."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/rafasosadev/Celiacosmy"
+              demoLink="https://github.com/rafasosadev/Celiacosmy"
+              languages={["android studio","kotlin", "firebase",  'jetpack compose', 'google analytics']}
             />
           </Col>
 
@@ -51,7 +52,8 @@ function Projects() {
               title="SosaCars"
               description="Aplicación Web de Alquiler de Coches desarrollada con Next.js, React, Tailwind CSS y Stripe. Permite búsqueda de coches, reservas en línea, panel de administración y pasarela de pago segura."
               ghLink="https://github.com/rafasosadev/SosaCars"
-              demoLink="https://sosa-cars.vercel.app/"              
+              demoLink="https://sosa-cars.vercel.app/"    
+              languages={['react','next.js','tailwind', 'stripe', 'vercel']}          
             />
           </Col>
 
@@ -63,6 +65,7 @@ function Projects() {
               description="Calculadora interactiva desarrollada en HTML, CSS y JavaScript. Permite realizar operaciones básicas y muestra los valores anteriores y actuales en pantalla. Perfecta para aprender manipulación del DOM y eventos en JS."
               ghLink="https://github.com/rafasosadev/calculadoraSosa"
               demoLink="https://calculadora-sosa.vercel.app/"
+              languages={['html5','css3', 'javascript', 'vercel']}
             />
           </Col>
 

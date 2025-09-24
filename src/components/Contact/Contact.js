@@ -16,9 +16,9 @@ function Contact() {
       const controls = globeRef.current.controls();
       if (controls) {
         controls.autoRotate = true;
-        controls.autoRotateSpeed = 1.2;
+        controls.autoRotateSpeed = 2;
         controls.enableZoom = false;
-        controls.enableRotate = false;
+        controls.enableRotate = true;
       }
     }
   }, []);
