@@ -1,4 +1,4 @@
-## Portfolio Personal - v1.0  
+## Portfolio Personal - v2.0  
 [🌍 Ver online](https://tu-portfolio.vercel.app/)
 
 ---
