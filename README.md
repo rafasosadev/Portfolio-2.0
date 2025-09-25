@@ -57,3 +57,16 @@ npm install
 
 # Ejecutar en modo desarrollo
 npm start
+
+La app se abrirá en http://localhost:3000
+ y se recargará automáticamente al guardar cambios.
+
+📂 Uso
+
+Todos los componentes están dentro de /src/components/.
+
+Ahí puedes editar tu información personal, proyectos, enlaces y estilos.
+
+⭐ Apóyame
+
+Si te gusta este proyecto, ¡dale una estrella en GitHub! ⭐
