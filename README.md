@@ -57,7 +57,7 @@ npm install
 
 # Ejecutar en modo desarrollo
 npm start
-
+```
 La app se abrirá en http://localhost:3000
  y se recargará automáticamente al guardar cambios.
 
