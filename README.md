@@ -3,7 +3,9 @@
 
 ---
 
-![Preview del Portfolio](./Images/portfolio-preview.png)
+### 📸 Preview del Portfolio  
+<img width="1893" height="911" alt="image" src="https://github.com/user-attachments/assets/25f1cc46-21d4-4241-ab7b-52e91ccff229" />
+<img width="418" height="647" alt="image" src="https://github.com/user-attachments/assets/67ebcc39-2b95-40b1-9498-99ec5da04980" />
 
 ---
 
@@ -22,7 +24,6 @@ Mi portfolio personal desarrollado en **React.js**, donde muestro mis proyectos 
 - 🥗 **Celiacosmy** – Proyecto final DAM (app móvil en Kotlin + Firebase + Firestore)  
 - 🚗 **SosaCars** – Aplicación web de alquiler de coches (Next.js + Tailwind + Stripe)  
 - 🧮 **Calculadora Interactiva** – Proyecto en HTML, CSS y JavaScript  
-- 💬 **Chatify (demo)** – Sala de chat con React, Firebase y Material-UI  
 
 ---
 
