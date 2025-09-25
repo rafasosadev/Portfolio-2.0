@@ -11,9 +11,8 @@
 
 [![forthebadge built-with-love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  
 [![forthebadge made-with-javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)  
-[![forthebadge open-source](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)  
-![GitHub Repo stars](https://img.shields.io/github/stars/rafasosadev/portfolio?color=red&logo=github&style=for-the-badge)  
-![GitHub forks](https://img.shields.io/github/forks/rafasosadev/portfolio?color=red&logo=github&style=for-the-badge)  
+[![forthebadge made-with-react](https://forthebadge.com/images/badges/made-with-react.svg)](https://forthebadge.com)
+
 
 ---
 
