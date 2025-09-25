@@ -1,5 +1,5 @@
 ## Portfolio Personal - v2.0  
-[🌍 Ver online]([https://tu-portfolio.vercel.app/](https://rafasosaportfolio2-0.vercel.app/))
+[🌍 Ver online](https://rafasosaportfolio2-0.vercel.app/)
 
 ---
 
