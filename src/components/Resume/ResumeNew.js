@@ -7,13 +7,15 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 // PDF local para visualización
-import pdf from "../../Assets/Curriculum_Rafael_Sosa_Linares.pdf";
+import pdf from "../../Assets/CurriculumRAFAELSOSALINARES.pdf";
 
 // Worker de PDF.js
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 // Link de Google Drive para descarga
-const googleDriveLink = "https://drive.google.com/uc?export=download&id=1eIYUZs2wS9oZElPWuC5FOextYNqDcQuN";
+const googleDriveLink = "https://drive.google.com/uc?export=download&id=1gTyBlv1R3DMgQH6Dn0dklZy6G5QLiV7z";
+
+
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
